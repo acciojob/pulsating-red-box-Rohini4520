@@ -9,8 +9,7 @@ body{
 	background-color: #f0f0f0;
 }
 
-
-	.pulse-box{
+.box{
 		width: 100px;
 		height: 100px;
 		background-color: red;
