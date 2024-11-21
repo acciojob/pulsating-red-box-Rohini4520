@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	background-color: #f0f0f0;
+
+
+	.pulse-box{
+		width: 100px;
+		height: 100px;
+		background-color: red;
+		border-radius: 8px;
+		animation:pulse 1s ease-in-out infinite;
+	}
+	@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1); /* Slightly larger */
+    }
+    100% {
+        transform: scale(1);
+}
