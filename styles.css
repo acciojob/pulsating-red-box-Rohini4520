@@ -1,7 +1,7 @@
 /*  your css code here. If applicable */
 
 body{
-	display: flex
+	display: flex;
 	height: 100vh;
 	margin: 0;
 	background-color: #f0f0f0;
